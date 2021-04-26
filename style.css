@@ -62,3 +62,8 @@ body {
 .flex-wrap {
 	flex-wrap: wrap;
 }
+
+.border:hover {
+	background-color: #e68a64;
+	border-color: #a33629;
+}
