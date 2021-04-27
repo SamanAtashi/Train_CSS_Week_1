@@ -1,3 +1,4 @@
+/* -------------------- some simple reseting -------------------- */
 * {
 	list-style: none;
 	padding: 0;
@@ -15,7 +16,21 @@ body {
 	justify-content: center;
 	background-color: #261011;
 }
+/* !--------------default calsses being used-------------- */
 
+.d-flex {
+	display: flex;
+}
+
+.direct-col {
+	flex-direction: column;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+/*! -----------------styling starts here-----------------  */
 .icons {
 	width: 50%;
 	height: 50%;
@@ -49,18 +64,6 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-}
-
-.d-flex {
-	display: flex;
-}
-
-.direct-col {
-	flex-direction: column;
-}
-
-.flex-wrap {
-	flex-wrap: wrap;
 }
 
 .border:hover {
