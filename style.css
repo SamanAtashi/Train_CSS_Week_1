@@ -17,6 +17,9 @@ body {
 	background-color: #261011;
 }
 /* !--------------default calsses being used-------------- */
+bg-white {
+	background-color: white;
+}
 
 .d-flex {
 	display: flex;
@@ -30,6 +33,10 @@ body {
 	flex-wrap: wrap;
 }
 
+.jcsb {
+	justify-content: space-between;
+}
+
 /*! -----------------styling starts here-----------------  */
 .icons {
 	width: 50%;
@@ -38,7 +45,7 @@ body {
 }
 
 .social-icons {
-	font-size: 2rem;
+	font-size: 1.1rem;
 }
 
 .text-hovered {
@@ -54,13 +61,13 @@ body {
 }
 
 .border {
-	color: #512e12;
-	text-align: center;
-	border: 0.4rem solid;
-	padding: 1rem;
+	color: #ffead3;
+	border: 0.25rem solid #512e12;
 	border-radius: 50%;
-	width: 100px;
-	height: 100px;
+	padding: 1rem;
+	margin: 0.2rem;
+	width: 1.5rem;
+	height: 1.5rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
